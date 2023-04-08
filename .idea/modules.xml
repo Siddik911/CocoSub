@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CocoSub.iml" filepath="$PROJECT_DIR$/CocoSub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Draft projects/Draft projects.iml" filepath="$PROJECT_DIR$/../Draft projects/Draft projects.iml" />
     </modules>
   </component>
 </project>

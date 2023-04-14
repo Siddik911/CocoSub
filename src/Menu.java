@@ -1,6 +1,3 @@
-
-
-
 //package swing;
 
 import javax.swing.*;
@@ -32,8 +29,8 @@ public class Menu extends JFrame /*implements ActionListener*/ {
         Color button2 = new Color(73, 56, 51);
         Color button3= new Color(128,111,102);
         Color button4= new Color(201,163,119);
-        //text-field
 
+        //text-field
         JTextField t1 = new JTextField("SIRAJUM MUNIR  |  Credits 100");
         t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t1.setFont(f2);
@@ -52,120 +49,115 @@ public class Menu extends JFrame /*implements ActionListener*/ {
 
         JTextField t3= new JTextField("Tea Package- 299৳");
         t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        t3.setFont(f3);
+        t3.setFont(f1);
         t3.setBackground(button3);
         t3.setForeground(Color.white);
-        t3.setBounds(220, 100, 500, 30);
+        t3.setBounds(40, 260, 150, 10);
         panel.add(t3);
 
-        JTextField t4= new JTextField("Tea Package- 299৳");
+        JTextField t4= new JTextField("Premium Coffee 699৳");
         t4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        t4.setFont(f3);
+        t4.setFont(f1);
         t4.setBackground(button3);
         t4.setForeground(Color.white);
-        t4.setBounds(220, 100, 500, 30);
+        t4.setBounds(210, 260, 150, 10);
         panel.add(t4);
 
-        JTextField t5= new JTextField("Tea Package- 299৳");
+        JTextField t5= new JTextField("Black Coffee- 499৳");
         t5.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        t5.setFont(f3);
+        t5.setFont(f1);
         t5.setBackground(button3);
         t5.setForeground(Color.white);
-        t5.setBounds(220, 100, 500, 30);
+        t5.setBounds(410, 260, 150, 10);
         panel.add(t5);
 
-        JTextField t6= new JTextField("Tea Package- 299৳");
+        JTextField t6= new JTextField("Regular Coffee- 599৳");
         t6.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        t6.setFont(f3);
+        t6.setFont(f1);
         t6.setBackground(button3);
         t6.setForeground(Color.white);
-        t6.setBounds(220, 100, 500, 30);
+        t6.setBounds(590, 260, 150, 10);
         panel.add(t6);
 
 
-        ImageIcon cf4 = new ImageIcon(getClass().getResource("4.jpg"));
-        JLabel c4 = new JLabel(cf4);
-        c4.setBounds(40, 150, 100, 100);
-        panel.add(c4);
+        ImageIcon cf1 = new ImageIcon(getClass().getResource("4.jpg"));
+        JLabel c1 = new JLabel(cf1);
+        c1.setBounds(40, 150, 100, 100);
+        panel.add(c1);
 
-        ImageIcon cf5 = new ImageIcon(getClass().getResource("5.jpg"));
-        JLabel c5 = new JLabel(cf5);
-        c5.setBounds(210, 150, 100, 100);
-        panel.add(c5);
+        ImageIcon cf2 = new ImageIcon(getClass().getResource("5.jpg"));
+        JLabel c2 = new JLabel(cf2);
+        c2.setBounds(210, 150, 100, 100);
+        panel.add(c2);
 
-        ImageIcon cf6 = new ImageIcon(getClass().getResource("6.jpg"));
-        JLabel c6 = new JLabel(cf6);
-        c6.setBounds(410, 150, 100, 100);
-        panel.add(c6);
-
-        ImageIcon cf3 = new ImageIcon(getClass().getResource("3.jpg"));
+        ImageIcon cf3 = new ImageIcon(getClass().getResource("6.jpg"));
         JLabel c3 = new JLabel(cf3);
-        c3.setBounds(590, 150, 100, 100);
+        c3.setBounds(410, 150, 100, 100);
         panel.add(c3);
 
+        ImageIcon cf4 = new ImageIcon(getClass().getResource("3.jpg"));
+        JLabel c4 = new JLabel(cf4);
+        c4.setBounds(590, 150, 100, 100);
+        panel.add(c4);
 
         //Buttons
-        JButton s1=new JButton("Subscriptions");
+        JButton sc=new JButton("Subscriptions");
         //s1 = new JButton("Subscriptions");
-        s1.setBounds(200, 375, 150, 30);
-        s1.setBackground(Color.BLACK);
-        s1.setForeground(Color.WHITE);
-        s1.setFont(f3);
-        s1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        sc.setBounds(200, 375, 150, 30);
+        sc.setBackground(Color.BLACK);
+        sc.setForeground(Color.WHITE);
+        sc.setFont(f3);
+        sc.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         //s1.addActionListener(this);
+        panel.add(sc);
+
+        JButton RO=new JButton("Regular Order");
+
+        RO.setBounds(370, 375, 150, 30);
+        RO.setBackground(button4);
+        RO.setForeground(Color.WHITE);
+        RO.setFont(f3);
+        //s2.addActionListener(this);
+        RO.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        panel.add(RO);
+
+
+        JButton s1=new JButton("Select");
+        s1.setBounds(40, 290, 100, 30);
+        s1.setBackground(button2);
+        s1.setForeground(Color.WHITE);
+        s1.setFont(f1);
+        s1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        //s4.addActionListener(this);
         panel.add(s1);
 
-        JButton s2=new JButton("Regular Order");
-
-        s2.setBounds(370, 375, 150, 30);
-        s2.setBackground(button4);
+        JButton s2=new JButton("Select");
+        s2 = new JButton("Select");
+        s2.setBounds(210, 290, 100, 30);
+        s2.setBackground(button2);
         s2.setForeground(Color.WHITE);
-        s2.setFont(f3);
-        //s2.addActionListener(this);
+        s2.setFont(f1);
         s2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        //s5.addActionListener(this);
         panel.add(s2);
 
-
-
-        JButton s4=new JButton("Select");
-        s4.setBounds(40, 290, 100, 30);
-        s4.setBackground(button2);
-        s4.setForeground(Color.WHITE);
-        s4.setFont(f1);
-        s4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        //s4.addActionListener(this);
-        panel.add(s4);
-
-        JButton s5=new JButton("Select");
-        s5 = new JButton("Select");
-        s5.setBounds(210, 290, 100, 30);
-        s5.setBackground(button2);
-        s5.setForeground(Color.WHITE);
-        s5.setFont(f1);
-        s5.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        //s5.addActionListener(this);
-        panel.add(s5);
-
-
-        JButton s6=new JButton("Select");
-        s6 = new JButton("Select");
-        s6.setBounds(410, 290, 100, 30);
-        s6.setBackground(button2);
-        s6.setForeground(Color.WHITE);
-        s6.setFont(f1);
-        s6.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        //s6.addActionListener(this);
-        panel.add(s6);
-
         JButton s3=new JButton("Select");
-        s3 = new JButton("Select");
-        s3.setBounds(590, 290, 100, 30);
+        s3.setBounds(410, 290, 100, 30);
         s3.setBackground(button2);
         s3.setForeground(Color.WHITE);
         s3.setFont(f1);
         s3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        //s3.addActionListener(this);
+        //s6.addActionListener(this);
         panel.add(s3);
+
+        JButton s4=new JButton("Select");
+        s4.setBounds(590, 290, 100, 30);
+        s4.setBackground(button2);
+        s4.setForeground(Color.WHITE);
+        s4.setFont(f1);
+        s4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        //s3.addActionListener(this);
+        panel.add(s4);
 
         JButton b1=new JButton("Account");
         b1.setBounds(300, 20, 100, 30);
@@ -206,7 +198,6 @@ public class Menu extends JFrame /*implements ActionListener*/ {
         JLabel img1 = new JLabel(icon1);
         img1.setBounds(630, -25, 100, 100);
         panel.add(img1);
-
 
         ImageIcon img = new ImageIcon(getClass().getResource("MenuPage.png"));
         JLabel imgLabel = new JLabel(img);

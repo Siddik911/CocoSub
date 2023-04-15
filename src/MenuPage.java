@@ -28,7 +28,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         Color button5 = new Color(0,191,99);
 
         //text-field
-        JTextField t1 = new JTextField("SIRAJUM MUNIR  |  Credits 100");
+        JLabel t1 = new JLabel("SIRAJUM MUNIR  |  Credits 100");
         t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t1.setFont(f2);
         t1.setBackground(button2);
@@ -36,7 +36,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         t1.setBounds(10, 20, 250, 30);
         panel.add(t1);
 
-        JTextField t2 = new JTextField("Choose your favourite package");
+        JLabel t2 = new JLabel("Choose your favourite package");
         t2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t2.setFont(f3);
         t2.setBackground(button3);
@@ -44,7 +44,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         t2.setBounds(220, 100, 500, 30);
         panel.add(t2);
 
-        JTextField t3= new JTextField("Tea Package- 299৳");
+        JLabel t3= new JLabel("Tea Package- 299৳");
         t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t3.setFont(f1);
         t3.setBackground(button3);
@@ -52,7 +52,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         t3.setBounds(40, 260, 150, 10);
         panel.add(t3);
 
-        JTextField t4= new JTextField("Premium Coffee 699৳");
+        JLabel t4= new JLabel("Premium Coffee 699৳");
         t4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t4.setFont(f1);
         t4.setBackground(button3);
@@ -60,7 +60,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         t4.setBounds(210, 260, 150, 10);
         panel.add(t4);
 
-        JTextField t5= new JTextField("Black Coffee- 499৳");
+        JLabel t5= new JLabel("Black Coffee- 499৳");
         t5.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t5.setFont(f1);
         t5.setBackground(button3);
@@ -68,7 +68,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         t5.setBounds(410, 260, 150, 10);
         panel.add(t5);
 
-        JTextField t6= new JTextField("Regular Coffee- 599৳");
+        JLabel t6= new JLabel("Regular Coffee- 599৳");
         t6.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t6.setFont(f1);
         t6.setBackground(button3);

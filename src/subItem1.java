@@ -13,7 +13,7 @@ public class subItem1 extends JFrame /*implements ActionListener*/ {
 
         Color c1 = new Color(73, 56, 51);
         Color c2= new Color(128,111,102);
-        Font f1 = new Font("Sans Serif", Font.BOLD, 16);
+        Font f1 = new Font("Sans Serif", Font.BOLD, 20);
 
         JPanel panel1= new JPanel();
         panel1.setSize(750,70);
@@ -32,13 +32,46 @@ public class subItem1 extends JFrame /*implements ActionListener*/ {
         l1.setBounds(500,60,250,430);
         panel2.add(l1);
 
-        JLabel t3= new JLabel("Tea Package- 299৳");
+        JLabel t1= new JLabel("Tea Package- 299৳");
+        t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        t1.setFont(f1);
+        t1.setBackground(c2);
+        t1.setForeground(Color.white);
+        t1.setBounds(40, 30, 150, 20);
+        panel1.add(t1);
+
+        JLabel t2= new JLabel("•Enjoy a refreshing cup of Tea every day.");
+        t2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        t2.setFont(f1);
+        t2.setBackground(c1);
+        t2.setForeground(Color.white);
+        t2.setBounds(10, 120, 400, 25);
+        panel2.add(t2);
+
+        JLabel t3= new JLabel("•You will get 50 credits per month.");
         t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         t3.setFont(f1);
-        t3.setBackground(c2);
+        t3.setBackground(c1);
         t3.setForeground(Color.white);
-        t3.setBounds(40, 30, 150, 20);
-        panel1.add(t3);
+        t3.setBounds(10, 160, 400, 25);
+        panel2.add(t3);
+
+        JLabel t4= new JLabel("•Unused Credits will roll over to next month.");
+        t4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        t4.setFont(f1);
+        t4.setBackground(c1);
+        t4.setForeground(Color.white);
+        t4.setBounds(10, 200, 450, 25);
+        panel2.add(t4);
+
+        JLabel t5= new JLabel("•You can cancel anytime.");
+        t5.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        t5.setFont(f1);
+        t5.setBackground(c1);
+        t5.setForeground(Color.white);
+        t5.setBounds(10, 240, 400, 25);
+        panel2.add(t5);
+
 
 
 

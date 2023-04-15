@@ -25,6 +25,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         Color button2 = new Color(73, 56, 51);
         Color button3= new Color(128,111,102);
         Color button4= new Color(201,163,119);
+        Color button5 = new Color(0,191,99);
 
         //text-field
         JTextField t1 = new JTextField("SIRAJUM MUNIR  |  Credits 100");
@@ -99,7 +100,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         //Buttons
         JButton sc=new JButton("Subscriptions");
         //s1 = new JButton("Subscriptions");
-        sc.setBounds(200, 375, 150, 30);
+        sc.setBounds(120, 375, 150, 30);
         sc.setBackground(Color.BLACK);
         sc.setForeground(Color.WHITE);
         sc.setFont(f3);
@@ -109,13 +110,23 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
 
         JButton RO=new JButton("Regular Order");
 
-        RO.setBounds(370, 375, 150, 30);
+        RO.setBounds(310, 375, 150, 30);
         RO.setBackground(button4);
         RO.setForeground(Color.WHITE);
         RO.setFont(f3);
         //s2.addActionListener(this);
         RO.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel.add(RO);
+
+        JButton OO=new JButton("Online Order");
+
+        OO.setBounds(500, 375, 150, 30);
+        OO.setBackground(button5);
+        OO.setForeground(Color.WHITE);
+        OO.setFont(f3);
+        //s2.addActionListener(this);
+        OO.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        panel.add(OO);
 
 
         JButton s1=new JButton("Select");

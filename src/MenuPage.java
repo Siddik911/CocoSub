@@ -214,6 +214,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         mp.setResizable(false);
         mp.setLocationRelativeTo(null);
         mp.setVisible(true);
+
     }
 }
 

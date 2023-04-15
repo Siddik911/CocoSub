@@ -3,8 +3,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 
 public class MenuPage extends JFrame /*implements ActionListener*/ {
@@ -214,7 +212,7 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
 
 
     public static void main(String[] args) {
-        Menu mp = new Menu();
+        MenuPage mp = new MenuPage();
         mp.setVisible(true);
     }
 }

@@ -13,6 +13,7 @@ public class subItem1 extends JFrame /*implements ActionListener*/ {
 
         Color c1 = new Color(73, 56, 51);
         Color c2= new Color(128,111,102);
+        Font f1 = new Font("Sans Serif", Font.BOLD, 16);
 
         JPanel panel1= new JPanel();
         panel1.setSize(750,70);
@@ -31,6 +32,13 @@ public class subItem1 extends JFrame /*implements ActionListener*/ {
         l1.setBounds(500,60,250,430);
         panel2.add(l1);
 
+        JLabel t3= new JLabel("Tea Package- 299৳");
+        t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        t3.setFont(f1);
+        t3.setBackground(c2);
+        t3.setForeground(Color.white);
+        t3.setBounds(40, 30, 150, 20);
+        panel1.add(t3);
 
 
 

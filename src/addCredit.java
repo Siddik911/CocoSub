@@ -4,6 +4,17 @@ import java.awt.Font;
 
 public class addCredit extends JFrame /*implements ActionListener*/{
 
+    JLabel l1,l2,l3,l4,l5;
+
+    JButton b1,b2;
+    Checkbox cb1,cb2,cb3,cb4;
+
+    JTextField t1,t2,t3,t4;
+
+    ImageIcon icon1;
+
+
+
 
     public addCredit(){
         super("Add Credit");
@@ -27,7 +38,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         Color c4= new Color(0,191,99);
         Color c5 = new Color(167, 77, 37);
 
-        JLabel l1= new JLabel("Choose the package(s) you want to add more credits");
+         l1= new JLabel("Choose the package(s) you want to add more credits");
         l1.setBounds(120,150,550,25);
         l1.setBackground(c2);
         l1.setForeground(Color.WHITE);
@@ -35,7 +46,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         l1.setFont(f1);
         panel.add(l1);
 
-        JLabel l2= new JLabel("Package Name");
+         l2= new JLabel("Package Name");
         l2.setBounds(80,200,150,30);
         l2.setOpaque(false);
         l2.setForeground(c3);
@@ -44,7 +55,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         panel.add(l2);
 
 
-        JLabel l3= new JLabel("Total Credit");
+         l3= new JLabel("Total Credit");
         l3.setBounds(400,200,150,30);
         l3.setOpaque(false);
         l3.setForeground(c3);
@@ -52,7 +63,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         l3.setFont(f2);
         panel.add(l3);
 
-        JLabel l4= new JLabel("Price");
+         l4= new JLabel("Price");
         l4.setBounds(600,200,150,30);
         l4.setOpaque(false);
         l4.setForeground(c3);
@@ -60,7 +71,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         l4.setFont(f2);
         panel.add(l4);
 
-        JLabel l5= new JLabel("Total Price: ৳");
+         l5= new JLabel("Total Price: ৳");
         l5.setBounds(100,370,150,30);
         l5.setOpaque(false);
         l5.setForeground(c3);
@@ -68,7 +79,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         l5.setFont(f2);
         panel.add(l5);
 
-        JButton b1= new JButton("Add Credits");
+         b1= new JButton("Add Credits");
         b1.setBounds(400,370,100,30);
         b1.setBackground(c4);
         b1.setForeground(Color.WHITE);
@@ -77,7 +88,7 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         //b1.addActionListener(this);
         panel.add(b1);
 
-        JButton b2=new JButton("Back");
+         b2=new JButton("Back");
         b2.setBounds(50, 420, 100, 30);
         b2.setForeground(Color.WHITE);
         b2.setFont(f2);
@@ -87,53 +98,53 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         panel.add(b2);
 
 
-        Checkbox cb1= new Checkbox("  Subscription Name- Price");
+         cb1= new Checkbox("  Subscription Name- Price");
         cb1.setBounds(80,240,220,30);
         cb1.setFont(f2);
         cb1.setForeground(Color.WHITE);
         panel.add(cb1);
 
-        Checkbox cb2= new Checkbox("  Subscription Name- Price");
+         cb2= new Checkbox("  Subscription Name- Price");
         cb2.setBounds(80,270,220,30);
         cb2.setFont(f2);
         cb2.setForeground(Color.WHITE);
         panel.add(cb2);
 
-        Checkbox cb3= new Checkbox("  Subscription Name- Price");
+         cb3= new Checkbox("  Subscription Name- Price");
         cb3.setBounds(80,300,220,30);
         cb3.setFont(f2);
         cb3.setForeground(Color.WHITE);
         panel.add(cb3);
 
-        Checkbox cb4= new Checkbox("  Subscription Name- Price");
+         cb4= new Checkbox("  Subscription Name- Price");
         cb4.setBounds(80,330,220,30);
         cb4.setFont(f2);
         cb4.setForeground(Color.WHITE);
         panel.add(cb4);
 
 
-        JTextField t1= new JTextField();
+         t1= new JTextField();
         t1.setBounds(400,240,100,20);
         t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel.add(t1);
 
-        JTextField t2= new JTextField();
+         t2= new JTextField();
         t2.setBounds(400,270,100,20);
         t2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel.add(t2);
 
-        JTextField t3= new JTextField();
+         t3= new JTextField();
         t3.setBounds(400,300,100,20);
         t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel.add(t3);
 
-        JTextField t4= new JTextField();
+         t4= new JTextField();
         t4.setBounds(400,330,100,20);
         t4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel.add(t4);
 
 
-        ImageIcon icon1= new ImageIcon(getClass().getResource("logo1.png"));
+         icon1= new ImageIcon(getClass().getResource("logo1.png"));
         JLabel l6 = new JLabel(icon1);
         l6.setBounds(270, -20, 200, 200);
         panel.add(l6);

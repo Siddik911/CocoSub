@@ -5,16 +5,11 @@ import java.awt.Font;
 public class changePass extends JFrame /*implements ActionListener*/ {
 
     JPanel panel1,panel2;
-
     ImageIcon icon1;
-
     Color c1,c2,c3;
-
     JButton b3;
     Font f3;
-
     JLabel l1,l2;
-
     JTextField t1,t2;
 
     public changePass(){

@@ -13,6 +13,12 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
 
     ImageIcon img,icon,icon1;
 
+    JPanel panel;
+
+    Font f1,f2,f3;
+
+    Color button,button2,button3,button4,button5;
+
 
 
     public MenuPage() {
@@ -21,20 +27,20 @@ public class MenuPage extends JFrame /*implements ActionListener*/ {
         this.setSize(750, 500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JPanel panel = new JPanel();
+        panel = new JPanel();
         panel.setLayout(null);
 
         //fonts
-        Font f1 = new Font("Sans Serif", Font.BOLD, 12);
-        Font f2 = new Font("Sans Serif", Font.BOLD, 16);
-        Font f3 = new Font("Sans Serif", Font.BOLD, 20);
+         f1 = new Font("Sans Serif", Font.BOLD, 12);
+         f2 = new Font("Sans Serif", Font.BOLD, 16);
+         f3 = new Font("Sans Serif", Font.BOLD, 20);
 
         //button colors
-        Color button = new Color(167, 77, 37);
-        Color button2 = new Color(73, 56, 51);
-        Color button3= new Color(128,111,102);
-        Color button4= new Color(201,163,119);
-        Color button5 = new Color(0,191,99);
+         button = new Color(167, 77, 37);
+         button2 = new Color(73, 56, 51);
+         button3= new Color(128,111,102);
+         button4= new Color(201,163,119);
+         button5 = new Color(0,191,99);
 
         //text-field
          t1 = new JLabel("SIRAJUM MUNIR  |  Credits 100");

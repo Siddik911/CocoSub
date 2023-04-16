@@ -13,6 +13,10 @@ public class addCredit extends JFrame /*implements ActionListener*/{
 
     ImageIcon icon1;
 
+    JPanel panel;
+
+    Font f1,f2;
+    Color c1,c2,c3,c4,c5;
 
 
 
@@ -21,22 +25,22 @@ public class addCredit extends JFrame /*implements ActionListener*/{
         this.setSize(750,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        Color c1= new Color(128,111,102,255);
+         c1= new Color(128,111,102,255);
 
 
-        JPanel panel= new JPanel();
+        panel= new JPanel();
 
 
         panel.setLayout(null);
         panel.setBackground(c1);
         this.add(panel);
 
-        Font f1 = new Font("Sans Serif", Font.BOLD, 20);
-        Font f2 = new Font("Sans Serif", Font.BOLD, 16);
-        Color c2= new Color(128,111,102);
-        Color c3= new Color(192,156,116);
-        Color c4= new Color(0,191,99);
-        Color c5 = new Color(167, 77, 37);
+         f1 = new Font("Sans Serif", Font.BOLD, 20);
+         f2 = new Font("Sans Serif", Font.BOLD, 16);
+         c2= new Color(128,111,102);
+         c3= new Color(192,156,116);
+         c4= new Color(0,191,99);
+         c5 = new Color(167, 77, 37);
 
          l1= new JLabel("Choose the package(s) you want to add more credits");
         l1.setBounds(120,150,550,25);

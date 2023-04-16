@@ -6,7 +6,7 @@ public class payment extends JFrame /*implements ActionListener*/ {
 
     JPanel panel1,panel2;
 
-    Color c1,c2,c4;
+    Color c1,c2,c3,c4;
 
     ImageIcon icon1,icon2;
 
@@ -16,7 +16,7 @@ public class payment extends JFrame /*implements ActionListener*/ {
 
     JTextField t1,t2,t3;
 
-    JButton b1;
+    JButton b1,b3;
 
     public payment() {
 
@@ -26,6 +26,7 @@ public class payment extends JFrame /*implements ActionListener*/ {
 
         c1 = new Color(73, 56, 51);
         c2= new Color(128,111,102);
+        c3= new Color(167, 77, 37);
         c4= new Color(0,191,99);
         f2 = new Font("Sans Serif", Font.BOLD, 20);
         f3 = new Font("Sans Serif", Font.BOLD, 16);
@@ -115,6 +116,15 @@ public class payment extends JFrame /*implements ActionListener*/ {
         b1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         //b1.addActionListener(this);
         panel2.add(b1);
+
+        b3=new JButton("Back");
+        b3.setBounds(100, 400, 100, 30);
+        b3.setForeground(Color.WHITE);
+        b3.setFont(f3);
+        b3.setBackground(c3);
+        b3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        //b3.addActionListener(this);
+        panel1.add(b3);
 
 
 

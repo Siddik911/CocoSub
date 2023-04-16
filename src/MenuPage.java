@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.Font;
 
-
 public class MenuPage extends JFrame /*implements ActionListener*/ {
 
     JLabel t1,t2,t3,t4,t5,t6;

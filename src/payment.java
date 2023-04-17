@@ -10,11 +10,11 @@ public class payment extends JFrame /*implements ActionListener*/ {
 
     ImageIcon icon1,icon2;
 
-    JLabel l1,l2,l3,l4,l5,l6;
+    JLabel l1,l2,l3,l4,l5,l6,l7;
 
     Font f2,f3;
 
-    JTextField t1,t2,t3;
+    JTextField t1,t2,t3,t4;
 
     JButton b1,b3;
 
@@ -53,23 +53,31 @@ public class payment extends JFrame /*implements ActionListener*/ {
         panel2.add(l1);
 
         l2= new JLabel("16 digit card number");
-        l2.setBounds(350,150,200,30);
+        l2.setBounds(350,100,200,30);
         l2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         l2.setFont(f3);
         l2.setBackground(c2);
         l2.setForeground(Color.white);
         panel2.add(l2);
 
-        l3= new JLabel("EXP Date");
-        l3.setBounds(350,250,100,20);
+        l3= new JLabel("Credit amount");
+        l3.setBounds(420,250,130,20);
         l3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         l3.setFont(f3);
         l3.setBackground(c2);
         l3.setForeground(Color.white);
         panel2.add(l3);
 
+        l6= new JLabel("EXP Date");
+        l6.setBounds(350,200,130,20);
+        l6.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        l6.setFont(f3);
+        l6.setBackground(c2);
+        l6.setForeground(Color.white);
+        panel2.add(l6);
+
         l4= new JLabel("CVV");
-        l4.setBounds(550,250,100,20);
+        l4.setBounds(550,200,100,20);
         l4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         l4.setFont(f3);
         l4.setBackground(c2);
@@ -84,20 +92,25 @@ public class payment extends JFrame /*implements ActionListener*/ {
         l5.setForeground(Color.white);
         panel2.add(l5);
 
-        t1= new JTextField();
-        t1.setBounds(350,180,300,25);
-        t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        panel2.add(t1);
-
         t2= new JTextField();
-        t2.setBounds(440,250,80,20);
+        t2.setBounds(350,150,300,25);
         t2.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel2.add(t2);
 
+        t1= new JTextField();
+        t1.setBounds(550,250,80,20);
+        t1.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        panel2.add(t1);
+
         t3= new JTextField();
-        t3.setBounds(600,250,80,20);
+        t3.setBounds(600,200,80,20);
         t3.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         panel2.add(t3);
+
+        t4= new JTextField();
+        t4.setBounds(440,200,80,20);
+        t4.setBorder(javax.swing.BorderFactory.createEmptyBorder());
+        panel2.add(t4);
 
         icon1= new ImageIcon(getClass().getResource("logo.png"));
         JLabel l3 = new JLabel(icon1);
